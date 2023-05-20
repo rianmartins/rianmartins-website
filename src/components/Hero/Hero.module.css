@@ -1,0 +1,43 @@
+.Container {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  background: black;
+  min-height: calc(100vh - 92px);
+  font-family: var(--font-fira-sans);
+}
+
+.LeftSection {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 24px 120px;
+}
+
+.Title {
+  font-size: 56px;
+  line-height: 67px;
+  color: white;
+}
+
+.SubTitle {
+  font-size: 28px;
+  line-height: 39px;
+  font-weight: 300;
+  color: white;
+  margin-top: 24px;
+}
+
+.RightSection {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 24px 120px;
+}
+
+.Button {
+  margin-top: 24px;
+  min-width: fit-content;
+  max-width: 336px;
+  font-size: 28px;
+}

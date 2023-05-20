@@ -1,0 +1,11 @@
+.item {
+  font-size: 24px;
+  font-weight: 400;
+  cursor: pointer;
+  height: fit-content;
+}
+
+.item:hover {
+  color: darkgoldenrod;
+  text-decoration: underline;
+}
