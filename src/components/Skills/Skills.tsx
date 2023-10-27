@@ -6,6 +6,11 @@ type SkillsProps = {};
 
 const SKILLS = [
   {
+    title: "TypeScript",
+    description: "TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.",
+    image: "/typescript.svg",
+  },
+  {
     title: "React",
     description: "React is a JavaScript library for building user interfaces.",
     image: "/react.png",
@@ -14,11 +19,6 @@ const SKILLS = [
     title: "Next.js",
     description: "Next.js is a React framework for production.",
     image: "/nextjs.png",
-  },
-  {
-    title: "TypeScript",
-    description: "TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.",
-    image: "/typescript.svg",
   },
   {
     title: "Node.js",
@@ -53,7 +53,7 @@ const Skills: React.FC<SkillsProps> = () => {
       <div className={styles.SubTitle}>
         Those are some of my skills that I've developed throughout the years
       </div>
-      <div style={{ height: 600 }}>
+      <div className={styles.CardsContainer}>
         <div className={styles.Cards}>
           {visibleSkills.map((skill, index) => (
             <Card key={index} {...skill} />

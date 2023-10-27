@@ -4,6 +4,7 @@ import Header from "@/components/Header/Header";
 import Footer from "@/components/Footer/Footer";
 import Hero from "@/components/Hero/Hero";
 import Skills from "@/components/Skills/Skills";
+import Experiences from "@/components/Experiences/Experiences";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       {/* App Body */}
       <Hero />
       <Skills />
+      <Experiences />
       {/* App Footer */}
       <Footer />
     </>

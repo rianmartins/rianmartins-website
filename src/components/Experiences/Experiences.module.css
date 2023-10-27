@@ -1,0 +1,38 @@
+.Container {
+  background-color: black;
+  font-family: var(--font-fira-sans);
+  text-align: center;
+  margin: auto;
+  padding: 80px 120px 50px;
+}
+
+.Title {
+  font-size: 56px;
+  line-height: 67px;
+}
+
+.SubTitle {
+  max-width: 700px;
+  color: #fcfafa;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 39px;
+  margin: auto;
+  margin-top: 24px;
+}
+
+.ExperiencesContainer {
+  padding: 5rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Experience {
+  width: 15rem;
+}
+
+.ExperienceDescription {
+  margin-top: 1.5rem;
+  line-height: 1.5rem;
+  color: #fcfafa;
+}
